@@ -1,59 +1,71 @@
 @extends('layouts.generic')
 
 @section('head')
-    <title>Pengacara Pembunuhan, Pengacara Perempuan Pembunuhan, Lawyer Pembunuhan</title>
+    <title>Pengacara Perempuan Penipuan, Lawyer Penipuan, Pengacara Penipuan</title>
     <link rel="canonical" href="{{ url('/') }}" />
     <meta name="description"
-        content="Pengacara Pembunuhan, Pengacara Perempuan Pembunuhan, dan Lawyer Pembunuhan dari JLC siap memberikan pendampingan hukum profesional dalam penanganan perkara pidana.">
+        content="JLC menyediakan layanan pengacara perempuan penipuan, lawyer penipuan, dan pengacara penipuan untuk membantu menangani permasalahan hukum secara profesional.">
     <meta property="og:locale" content="id" />
-    <meta property="og:title" content="Pengacara Pembunuhan, Pengacara Perempuan Pembunuhan, Lawyer Pembunuhan" />
+    <meta property="og:title" content="Pengacara Perempuan Penipuan, Lawyer Penipuan, Pengacara Penipuan" />
     <meta property="og:description"
-        content="Pengacara Pembunuhan, Pengacara Perempuan Pembunuhan, dan Lawyer Pembunuhan dari JLC siap memberikan pendampingan hukum profesional dalam penanganan perkara pidana." />
-    <meta property="og:site_name" content="Pengacara Pembunuhan, Pengacara Perempuan Pembunuhan, Lawyer Pembunuhan" />
+        content="JLC menyediakan layanan pengacara perempuan penipuan, lawyer penipuan, dan pengacara penipuan untuk membantu menangani permasalahan hukum secara profesional." />
+    <meta property="og:site_name" content="Pengacara Perempuan Penipuan, Lawyer Penipuan, Pengacara Penipuan" />
     <meta property="og:image" content="{{ asset('images/hero-image.webp') }}" />
     <meta property="og:image:width" content="1280" />
     <meta property="og:image:height" content="720" />
     <meta property="og:image:type" content="image/webp" />
     <meta name="twitter:card" content="Justicia Legal Counsel">
-    <meta name="twitter:title" content="Pengacara Pembunuhan, Pengacara Perempuan Pembunuhan, Lawyer Pembunuhan">
+    <meta name="twitter:title" content="Pengacara Perempuan Penipuan, Lawyer Penipuan, Pengacara Penipuan">
     <meta name="twitter:description"
-        content="Pengacara Pembunuhan, Pengacara Perempuan Pembunuhan, dan Lawyer Pembunuhan dari JLC siap memberikan pendampingan hukum profesional dalam penanganan perkara pidana.">
+        content="JLC menyediakan layanan pengacara perempuan penipuan, lawyer penipuan, dan pengacara penipuan untuk membantu menangani permasalahan hukum secara profesional.">
     <meta name="twitter:image" content="{{ asset('images/hero-image.webp') }}">
     <meta name="twitter:url" content="{{ url('/') }}">
 @endsection
 
 @section('content')
     <section class="hero-section">
-
         <div class="container">
-            <div class="row align-items-center gy-5">
-                <div class="col-lg-7 hero-content">
-                    <span class="hero-badge">
-                        JUSTICIA LEGAL COUNSEL
-                    </span>
-                    <h1>
-                        <span>Pengacara Pembunuhan Profesional </span>untuk Pendampingan Hukum Pidana
 
+            <div class="row align-items-center">
+                <div class="col-lg-7 hero-content">
+
+                    <div class="hero-badge">
+                        <span></span>
+                        JUSTICIA LEGAL COUNSEL
+                    </div>
+
+                    <h1>
+                        Pengacara Penipuan Profesional 
+                        <span>untuk Pendampingan Hukum Pidana</span>
                     </h1>
+
+                    <div class="hero-title-line"></div>
+
                     <p>
-                        Justicia Legal Counsel (JLC) menyediakan layanan Pengacara Pembunuhan untuk membantu individu dan keluarga yang membutuhkan pendampingan hukum dalam perkara pidana. Kami membantu menghubungkan klien dengan advokat yang sesuai dengan kebutuhan perkara, mulai dari konsultasi awal, penelaahan dokumen, hingga pendampingan dalam proses hukum sesuai ruang lingkup layanan yang disepakati.
+                        Justicia Legal Counsel (JLC) menyediakan layanan Pengacara Penipuan bagi individu yang membutuhkan bantuan hukum ketika menghadapi laporan, tuduhan, pemeriksaan, penyidikan, maupun persidangan terkait dugaan tindak pidana penipuan. Kami membantu klien memahami posisi hukum, hak-hak yang dimiliki, serta pilihan langkah hukum yang dapat dipertimbangkan berdasarkan fakta dan ketentuan perundang-undangan yang berlaku.Perkara penipuan dapat melibatkan berbagai persoalan, mulai dari dugaan penggunaan identitas atau informasi palsu, transaksi yang menimbulkan kerugian, penyalahgunaan kepercayaan, hingga sengketa yang berkaitan dengan hubungan bisnis dan perjanjian. Melalui layanan Lawyer Penipuan, JLC membantu menelaah kronologi kejadian, dokumen transaksi, komunikasi antarpihak, dan bukti relevan untuk memahami unsur hukum dalam perkara yang dihadapi.
                     </p>
-                    <p>
-                        Perkara pembunuhan membutuhkan pemeriksaan fakta, analisis alat bukti, dan pemahaman terhadap ketentuan hukum yang berlaku. Melalui layanan Lawyer Pembunuhan, JLC membantu klien memahami posisi hukum, hak-hak yang dimiliki, serta pilihan langkah yang dapat ditempuh berdasarkan kondisi perkara.
-                    </p>
-                    <div class="hero-buttons">
-                        <a href="https://wa.lawfirm-jlc.com/" class="btn btn-primary-custom">
-                            Konsultasi Sekarang
-                            <i class="bi bi-arrow-right ms-2"></i>
-                        </a>
+
+                    <div class="hero-consultation-box">
+
+                        <div class="hero-consultation-icon">
+                            <i class="bi bi-bank"></i>
+                        </div>
+
+                        <div class="hero-consultation-text">
+                            <h2>
+                                Membutuhkan bantuan hukum terkait dugaan penipuan?
+                            </h2>
+
+                            <p>
+                                Konsultasikan permasalahan Anda dengan tim JLC untuk mendapatkan informasi mengenai pilihan pendampingan hukum yang tersedia.
+                            </p>
+                        </div>
+
                     </div>
-                </div>
-                <div class="col-lg-5">
-                    <div class="hero-image">
-                        <img src="{{ asset('images/hero-image.webp') }}" alt="Lawyer">
-                    </div>
+
                 </div>
             </div>
+
         </div>
     </section>
 
@@ -67,7 +79,7 @@
                                 <i class="bi bi-shield-check"></i>
                             </div>
                             <p class="feature-subtitle">Profesional</p>
-                            <p>Pendampingan hukum dilakukan sesuai kompetensi advokat, ketentuan hukum, dan ruang lingkup penugasan yang disepakati.</p>
+                            <p>Pendampingan dilakukan oleh advokat sesuai kompetensi, etika profesi, serta ketentuan hukum yang berlaku dalam penanganan perkara pidana penipuan.</p>
                         </div>
                     </div>
                     <div class="col-lg col-md-4 col-6">
@@ -76,7 +88,7 @@
                                 <i class="bi bi-stars"></i>
                             </div>
                             <p class="feature-subtitle">Integritas</p>
-                            <p>Penanganan perkara mengutamakan kejujuran, etika profesi, serta penghormatan terhadap hak-hak hukum klien.</p>
+                            <p>Setiap penanganan perkara mengutamakan kejujuran, tanggung jawab profesional, kerahasiaan informasi klien, serta penghormatan terhadap hak-hak hukum setiap pihak.</p>
                         </div>
                     </div>
                     <div class="col-lg col-md-4 col-6">
@@ -84,8 +96,8 @@
                             <div class="feature-icon">
                                 <i class="bi bi-award"></i>
                             </div>
-                            <p class="feature-subtitle">Komitmen</p>
-                            <p>Setiap kebutuhan hukum ditelaah berdasarkan karakteristik perkara dan informasi yang tersedia untuk membantu menentukan langkah yang relevan.</p>
+                            <p class="feature-subtitle">Komunikatif</p>
+                            <p>Klien memperoleh penjelasan mengenai perkembangan proses hukum, kebutuhan dokumen, dan pilihan langkah yang dapat dipertimbangkan berdasarkan kondisi perkara.</p>
                         </div>
                     </div>
                     <div class="col-lg col-md-6 col-6">
@@ -93,11 +105,137 @@
                             <div class="feature-icon">
                                 <i class="bi bi-people"></i>
                             </div>
-                            <p class="feature-subtitle">Terpercaya</p>
-                            <p>Klien memperoleh penjelasan mengenai kebutuhan dokumen, tahapan proses hukum, serta pilihan pendampingan yang dapat dipertimbangkan.</p>
+                            <p class="feature-subtitle">Berorientasi pada Kebutuhan Klien</p>
+                            <p>JLC membantu mengidentifikasi kebutuhan pendampingan berdasarkan posisi hukum klien, karakteristik dugaan penipuan, nilai kerugian, serta tahapan penanganan perkara.</p>
                         </div>
                     </div>
 
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="choose-section">
+        <div class="container">
+            <div class="row align-items-center choose-intro">
+                <!-- Foto -->
+                <div class="col-lg-5">
+                    <div class="choose-image">
+                        <img
+                            src="{{ asset('images/gallery/galeri/pengacara-perempuan.jpeg') }}"
+                            alt="Mengapa Memilih Justicia Legal Counsel"
+                        >
+                    </div>
+                </div>
+
+                <!-- Judul dan deskripsi -->
+                <div class="col-lg-7">
+                    <h4 class="choose-heading">
+                        Pengacara Perempuan Penipuan 
+                        <span>untuk Pendampingan Hukum yang Profesional</span>
+                    </h4>
+
+                    <p>
+                        Menghadapi perkara penipuan membutuhkan pendampingan hukum yang memahami unsur pidana, proses pembuktian, serta hak-hak setiap pihak yang terlibat. Bagi sebagian klien, berkonsultasi dengan advokat perempuan dapat memberikan kenyamanan tersendiri, terutama ketika perlu menjelaskan kronologi kejadian, hubungan dengan pihak terlapor, maupun kerugian yang dialami.
+                    </p>
+
+                    <p>
+                        Melalui layanan <b>Pengacara Perempuan Penipuan,</b> Justicia Legal Counsel (JLC) membantu calon klien memperoleh informasi mengenai ketersediaan advokat perempuan untuk menangani permasalahan hukum terkait dugaan tindak pidana penipuan. Pendampingan dilakukan dengan mempertimbangkan posisi hukum klien, karakteristik perkara, dan kebutuhan penanganan pada setiap tahapan proses pidana.
+                    </p>
+
+                    <!-- List fitur -->
+                    <div class="choose-feature-list">
+                        <div class="choose-feature-card">
+                            <div class="choose-feature-icon">
+                                <img src="{{ asset('images/icon-5.svg') }}" alt="" aria-hidden="true">
+                            </div>
+
+                            <div class="why-content">
+                                <p class="why-title">Konsultasi Hukum dengan Pendekatan Komunikatif</p>
+                                <p>
+                                    Klien dapat menyampaikan kronologi kejadian, bukti transaksi, komunikasi dengan pihak terkait, serta informasi mengenai kerugian yang dialami. Advokat membantu mengidentifikasi persoalan hukum dan menjelaskan pilihan langkah yang dapat dipertimbangkan.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="choose-feature-card">
+                            <div class="choose-feature-icon">
+                                <img src="{{ asset('images/icon-6.svg') }}" alt="" aria-hidden="true">
+                            </div>
+
+                            <div class="why-content">
+                                <p class="why-title">Penanganan Perkara Berdasarkan Bukti</p>
+                                <p>
+                                    Pengacara perempuan JLC membantu menelaah dokumen transaksi, bukti transfer, perjanjian, percakapan elektronik, dan keterangan saksi untuk memahami unsur hukum dalam perkara penipuan. Setiap pertimbangan diberikan berdasarkan fakta dan informasi yang tersedia.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="choose-feature-card">
+                            <div class="choose-feature-icon">
+                                <img src="{{ asset('images/icon-2.svg') }}" alt="" aria-hidden="true">
+                            </div>
+
+                            <div class="why-content">
+                                <p class="why-title">Pendampingan pada Setiap Tahapan Hukum</p>
+                                <p>
+                                    Sesuai ruang lingkup penugasan, layanan dapat mencakup konsultasi awal, pendampingan pelaporan, pemeriksaan di kepolisian, proses penyidikan, penyusunan dokumen hukum, hingga pendampingan persidangan.
+                                </p>
+                            </div>
+                        </div>
+                        <p>
+                            <b>JLC mengutamakan profesionalisme, komunikasi yang transparan, dan penghormatan terhadap hak-hak klien.</b> Sampaikan kebutuhan Anda kepada tim kami untuk mendapatkan informasi mengenai ketersediaan Pengacara Perempuan Penipuan dan pilihan pendampingan hukum yang sesuai.
+
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+        <section class="why-section">
+        <div class="container">
+            <div class="section-heading">
+                <span class="section-label">Justicia Legal Counsel</span>
+                <h3>Butuh Lawyer Penipuan? <br>Pahami Hak Hukum Anda Bersama JLC</h3>
+                <p>Perkara penipuan dapat melibatkan berbagai persoalan, seperti dugaan pemberian keterangan tidak benar, penggunaan identitas palsu, transaksi fiktif, penggelapan dana melalui tipu muslihat, hingga penyalahgunaan kepercayaan dalam hubungan bisnis. Setiap perkara membutuhkan penelaahan untuk mengetahui apakah peristiwa yang terjadi memenuhi unsur tindak pidana atau berkaitan dengan persoalan perdata.</p>
+                <p>JLC membantu klien menelaah kronologi, dokumen transaksi, bukti komunikasi, dan informasi lain yang berkaitan dengan perkara. Pendampingan disesuaikan dengan kebutuhan klien, mulai dari konsultasi awal hingga proses penyidikan dan persidangan sesuai penunjukan serta kesepakatan layanan.</p>
+            </div>
+            <div class="row justify-content-center gy-4">
+                <div class="col-lg-4 col-md-6">
+                    <div class="why-item">
+                        <div class="why-icon">
+                            <i class="bi bi-chat-dots"></i>
+                        </div>
+                        <div class="why-content">
+                            <p class="why-title">Konsultasi Hukum Berdasarkan Kronologi Penipuan</p>
+                            <p>
+                                Klien dapat menyampaikan kronologi kejadian, bentuk transaksi, hubungan dengan pihak terkait, serta kerugian yang dialami. Informasi tersebut membantu advokat mengidentifikasi persoalan hukum dan menentukan aspek yang perlu mendapatkan perhatian lebih lanjut.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="why-item">
+                        <div class="why-icon">
+                            <i class="bi bi-person"></i>
+                        </div>
+                        <div class="why-content">
+                            <p class="why-title">Penelaahan Dokumen Transaksi dan Alat Bukti</p>
+                            <p>Bukti transfer, rekening koran, perjanjian, percakapan elektronik, identitas pihak terkait, dan dokumen transaksi lainnya dapat menjadi bagian penting dalam perkara penipuan. JLC membantu menelaah bukti yang tersedia untuk memahami hubungan antara fakta kejadian dan unsur hukum yang dipersoalkan.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="why-item">
+                        <div class="why-icon">
+                            <i class="bi bi-shield-check"></i>
+                        </div>
+                        <div class="why-content">
+                            <p class="why-title">Pendampingan pada Proses Pidana</p>
+                            <p>JLC membantu klien memahami prosedur pemeriksaan, penyidikan, serta hak-hak hukum yang dimiliki. Apabila perkara berlanjut ke pengadilan, pendampingan dapat mencakup persiapan pembelaan, penyusunan dokumen hukum, dan proses persidangan sesuai ketentuan yang berlaku.</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -111,18 +249,42 @@
                         Tentang Kami
                     </span>
                     <h2 class="about-title">
-                        Mengapa Memilih JLC untuk Layanan Pengacara Pembunuhan?
+                        Mengapa Memilih JLC untuk Pendampingan Perkara Penipuan?
                     </h2>
                     <div class="about-content" id="aboutContent">
-                        <p>Memilih pengacara untuk perkara pidana serius memerlukan pertimbangan yang matang. JLC membantu klien menemukan pendamping hukum berdasarkan kebutuhan perkara, sehingga konsultasi dan penanganan hukum dapat dilakukan dengan mempertimbangkan fakta serta prosedur yang berlaku.</p>
-                        <p>Kami mengutamakan komunikasi yang jelas, analisis hukum yang cermat, dan pendampingan profesional agar klien memahami proses yang sedang dihadapi.</p>
+                        <p>Menghadapi dugaan tindak pidana penipuan membutuhkan pemahaman mengenai unsur pidana, alat bukti, hubungan hukum antarpihak, dan prosedur penanganan perkara. JLC membantu klien memperoleh penjelasan hukum yang relevan dengan situasi yang sedang dihadapi.</p>
+                        <p>Kami mengutamakan analisis berdasarkan fakta, penelaahan bukti secara cermat, serta komunikasi yang transparan agar klien memahami posisi hukumnya sebelum menentukan langkah selanjutnya.</p>
                     </div>
                 </div>
-                <div class="col-lg-4">
+                <div class="col-lg-4 about-image-container">
                     <div class="about-image">
-                        <img src="{{ asset('images/gallery/foto-1.webp') }}" alt="Lawyer">
+                        <img src="{{ asset('images/gallery/foto-2.jpeg') }}" alt="Lawyer">
                     </div>
                 </div>
+            </div>
+        </div>
+    </section>
+
+
+<section id="tim-kami" class="team-section-2">
+        <div class="container">
+            <div class="team-section-2-heading">
+                <span class="team-section-2-subtitle">
+                    Lorem Ipsum
+                </span>
+
+                <h5 class="team-section-2-title">
+                    Lorem.
+                    <span>Ipsum.</span>
+                </h5>
+
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.
+                </p>
+
+                <p>
+                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </p>
             </div>
         </div>
     </section>
@@ -157,290 +319,29 @@
         </div>
     </section>
 
-        <section id="tim-kami" class="team-section-2">
-    <div class="container">
-        <div class="team-section-2-heading">
-            <span class="team-section-2-subtitle">
-                Lorem Ipsum
-            </span>
+    <section class="layanan-hero">
+        <div class="layanan-hero__content">
+            <div class="layanan-hero__eyebrow">
+                <span></span>
+                LAYANAN KAMI
+                <span></span>
+            </div>
 
-            <h5 class="team-section-2-title">
-                Lorem.
-                <span>Ipsum.</span>
-            </h5>
+            <h1>
+                Layanan Pengacara &amp; Hukum dari
+                <strong>JLC</strong>
+            </h1>
+
+            <div class="layanan-hero__underline"></div>
 
             <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.
+                JLC menyediakan layanan pendampingan hukum untuk membantu klien menghadapi berbagai persoalan pidana, termasuk dugaan tindak pidana penipuan. Kebutuhan layanan ditentukan berdasarkan posisi klien, karakteristik peristiwa, bentuk kerugian, dan perkembangan penanganan perkara.
             </p>
-
             <p>
-                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                Untuk perkara penipuan, layanan hukum dapat mencakup konsultasi dan analisis awal, penelaahan dokumen transaksi, pendampingan pelaporan, pendampingan pemeriksaan, penyusunan dokumen hukum, hingga pembelaan di persidangan sesuai ruang lingkup penugasan.
             </p>
         </div>
-    </div>
-</section>
-
-    <section class="why-section">
-        <div class="container">
-            <div class="section-heading">
-                <span class="section-label">Justicia Legal Counsel</span>
-                <h3>Butuh Lawyer Pembunuhan? <br>Temukan Pendamping Hukum yang Sesuai</h3>
-                <p>Tidak semua perkara pidana memiliki fakta dan persoalan hukum yang sama. Karena itu, pemilihan Lawyer Pembunuhan perlu mempertimbangkan kebutuhan pembelaan, tahap penanganan perkara, serta pengalaman dan kompetensi advokat yang akan mendampingi.</p>
-                <p>JLC membantu calon klien mengidentifikasi kebutuhan hukum dan menghubungkannya dengan layanan yang sesuai. Melalui konsultasi awal, Anda dapat menjelaskan situasi yang dihadapi dan memperoleh informasi mengenai langkah hukum yang mungkin ditempuh.</p>
-            </div>
-            <div class="row justify-content-center gy-4">
-                <div class="col-lg-4 col-md-6">
-                    <div class="why-item">
-                        <div class="why-icon">
-                            <i class="bi bi-chat-dots"></i>
-                        </div>
-                        <div class="why-content">
-                            <p class="why-title">Konsultasi Hukum Lebih Mudah</p>
-                            <p>
-                                Sampaikan gambaran umum perkara dan kebutuhan pendampingan kepada tim JLC. Informasi tersebut menjadi langkah awal untuk mengidentifikasi persoalan hukum yang perlu ditelaah lebih lanjut.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="why-item">
-                        <div class="why-icon">
-                            <i class="bi bi-person"></i>
-                        </div>
-                        <div class="why-content">
-                            <p class="why-title">Pendampingan Sesuai Kebutuhan Perkara</p>
-                            <p>Ruang lingkup pendampingan dapat mencakup konsultasi, penelaahan dokumen, pendampingan pemeriksaan, persiapan pembelaan, hingga proses persidangan sesuai kesepakatan dan ketentuan yang berlaku.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="why-item">
-                        <div class="why-icon">
-                            <i class="bi bi-shield-check"></i>
-                        </div>
-                        <div class="why-content">
-                            <p class="why-title">Perlindungan Hak Hukum</p>
-                            <p>Advokat membantu klien memahami hak dan kewajiban selama proses pidana. Setiap langkah dipertimbangkan berdasarkan fakta, bukti, dan aturan hukum yang relevan.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
     </section>
-
-
-<section class="layanan-pidana-section">
-    <div class="container">
-        <!-- Section Heading -->
-        <div class="layanan-header">
-            <div class="layanan-heading-content">
-                <h2>
-                    Layanan Pengacara Pembunuhan
-                    <br class="d-none d-md-block">
-                    dan Litigasi Pidana JLC
-                </h2>
-                <p>
-                    JJLC menyediakan layanan litigasi pidana yang mencakup berbagai jenis perkara pidana umum dan pidana khusus. Perkara pembunuhan merupakan salah satu jenis perkara yang termasuk dalam cakupan layanan litigasi pidana pada website JLC.
-                </p>
-            </div>
-        </div>
-
-        <!-- Service Cards -->
-        <div class="row g-3 layanan-card-row">
-
-            <!-- Card 1 -->
-            <div class="col-12 col-sm-6 col-lg-3">
-                <article class="layanan-card">
-                    <div class="layanan-card-image">
-                        <img
-                            src="{{ asset('images/layanan-pengacara-1.webp') }}"
-                            alt="Pendampingan perkara pembunuhan"
-                            loading="lazy"
-                        >
-                    </div>
-
-                    <div class="layanan-card-body">
-                        <div class="layanan-card-icon">
-                            <img
-                                src="{{ asset('images/icon-1.svg') }}"
-                                alt=""
-                                loading="lazy"
-                            >
-                        </div>
-                        <div class="why-content">
-                        <p class="why-title">Pendampingan Perkara Pembunuhan</p>
-
-                        <p>
-                            JLC membantu klien memperoleh konsultasi dan pendampingan hukum terkait dugaan tindak pidana pembunuhan. Penanganan perkara dapat melibatkan penelaahan kronologi, dokumen hukum, keterangan saksi, dan alat bukti yang relevan.
-                        </p>
-                    </div>
-                    </div>
-                </article>
-            </div>
-
-            <!-- Card 2 -->
-            <div class="col-12 col-sm-6 col-lg-3">
-                <article class="layanan-card">
-                    <div class="layanan-card-image">
-                        <img
-                            src="{{ asset('images/layanan-pengacara-2.webp') }}"
-                            alt="Pendampingan pada tahap pemeriksaan"
-                            loading="lazy"
-                        >
-                    </div>
-
-                    <div class="layanan-card-body">
-                        <div class="layanan-card-icon">
-                            <img
-                                src="{{ asset('images/icon-2.svg') }}"
-                                alt=""
-                                loading="lazy"
-                            >
-                        </div>
-                        <div class="why-content">
-                        <p class="why-title">Pendampingan pada Tahap Pemeriksaan</p>
-
-                        <p>
-                            Dalam tahap penyelidikan dan penyidikan, advokat dapat membantu klien memahami prosedur pemeriksaan dan hak-hak hukumnya serta memberikan pendampingan sesuai ketentuan hukum acara pidana yang berlaku.
-                        </p>
-                    </div>
-                    </div>
-                </article>
-            </div>
-
-            <!-- Card 3 -->
-            <div class="col-12 col-sm-6 col-lg-3">
-                <article class="layanan-card">
-                    <div class="layanan-card-image">
-                        <img
-                            src="{{ asset('images/layanan-pengacara-3.webp') }}"
-                            alt="Pendampingan persidangan pidana"
-                            loading="lazy"
-                        >
-                    </div>
-
-                    <div class="layanan-card-body">
-                        <div class="layanan-card-icon">
-                            <img
-                                src="{{ asset('images/icon-3.svg') }}"
-                                alt=""
-                                loading="lazy"
-                            >
-                        </div>
-                        <div class="why-content">
-                        <p class="why-title">Pendampingan Persidangan</p>
-
-
-                        <p>
-                            Apabila perkara berlanjut ke pengadilan, pendampingan dapat mencakup penelaahan surat dakwaan, analisis alat bukti, pemeriksaan keterangan saksi, penyusunan argumentasi hukum, serta pembelaan sesuai fakta dan ketentuan hukum.
-                        </p>
-                    </div>
-                    </div>
-                </article>
-            </div>
-
-            <!-- Card 4 -->
-            <div class="col-12 col-sm-6 col-lg-3">
-                <article class="layanan-card">
-                    <div class="layanan-card-image">
-                        <img
-                            src="{{ asset('images/layanan-pengacara-4.webp') }}"
-                            alt="Konsultasi hukum bagi keluarga"
-                            loading="lazy"
-                        >
-                    </div>
-
-                    <div class="layanan-card-body">
-                        <div class="layanan-card-icon">
-                            <img
-                                src="{{ asset('images/icon-4.svg') }}"
-                                alt=""
-                                loading="lazy"
-                            >
-                        </div>
-                        <div class="why-content">
-                        <p class="why-title">Konsultasi bagi Keluarga</p>
-
-                        <p>
-                            Keluarga pihak yang diperiksa atau didakwa dapat berkonsultasi untuk memahami proses hukum, dokumen yang diperlukan, serta pilihan pendampingan yang tersedia berdasarkan posisi hukum masing-masing.
-                        </p>
-                    </div>
-                    </div>
-                </article>
-            </div>
-            <div class="col-12 text-center mt-4">
-                <a href="https://wa.lawfirm-jlc.com/" class="consult-btn px-5 py-3">
-                    Konsultasikan Perkara Anda
-                    <i class="bi bi-arrow-right"></i>
-                </a>
-            </div>
-        </div>
-    </div>
-</section>
-
-    <section class="choose-section">
-        <div class="container">
-            <div class="row align-items-center gy-lg-5">
-                <div class="col-lg-5">
-                    <div class="choose-image">
-                        <img src="{{ asset('images/gallery/galeri/pengacara-perempuan.jpeg') }}" alt="Mengapa Memilih Justicia Legal Counsel">
-                    </div>
-                </div>
-                <div class="col-lg-7">
-                    <h4 class="choose-heading text-lg-start text-center">
-                        Pengacara Perempuan Pembunuhan <span>untuk Kebutuhan Pendampingan Hukum</span>
-                    </h4>
-                    <p>Sebagian klien mungkin memiliki preferensi untuk berkonsultasi dengan advokat perempuan ketika menghadapi perkara pidana. JLC dapat menerima permintaan tersebut dan membantu mengonfirmasi ketersediaan serta kesesuaian penugasan advokat berdasarkan kebutuhan klien.</p>
-                    <p>Layanan <b>Pengacara Perempuan Pembunuhan</b> tetap mengutamakan kompetensi profesional, integritas, kerahasiaan sesuai kewajiban profesi, dan penghormatan terhadap hak-hak hukum setiap klien.</p>
-                </div>
-                <!-- Dua cards -->
-                <div class="row g-3 choose-feature-row">
-
-                <!-- Card 1 -->
-                <div class="col-md-6">
-                    <div class="choose-feature-card">
-                        <div class="choose-feature-icon">
-                            <img
-                                src="{{ asset('images/icon-5.svg') }}"
-                                alt=""
-                                aria-hidden="true"
-                            >
-                        </div>
-
-                        <div class="why-content">
-                            <p class="why-title">Pendampingan dengan Komunikasi yang Jelas</p>
-
-                            <p>
-                                Klien berhak memahami proses hukum yang sedang dihadapi. Advokat membantu menjelaskan persoalan, dokumen yang perlu diperiksa, dan pilihan langkah yang relevan agar klien dapat mengambil keputusan berdasarkan informasi yang memadai.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Card 2 -->
-                <div class="col-md-6">
-                    <div class="choose-feature-card">
-                        <div class="choose-feature-icon">
-                            <img
-                                src="{{ asset('images/icon-6.svg') }}"
-                                alt=""
-                                aria-hidden="true"
-                            >
-                        </div>
-
-                        <div class="why-content">
-                            <p class="why-title">Penanganan Berdasarkan Fakta dan Bukti</p>
-
-                            <p>
-                                Perkara pembunuhan memerlukan penilaian yang teliti terhadap kronologi kejadian, keterangan saksi, alat bukti, dan ketentuan pidana yang relevan. Analisis dilakukan sesuai informasi yang tersedia dan perkembangan perkara.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
 
     <section class="legal-services-section py-5">
         <div class="container">
@@ -766,6 +667,91 @@
             </div>
         </div>
     </section>
+
+
+<section class="pengacara-perempuan-section">
+    <div class="pengacara-perempuan-container">
+
+        <div class="pengacara-perempuan-content">
+            <div class="pengacara-perempuan-label">
+                <span></span>
+                LAYANAN KHUSUS
+            </div>
+
+            <h2>
+                Pengacara Perempuan Penipuan
+                <br>
+                untuk Kebutuhan
+                <span>Pendampingan Hukum</span>
+            </h2>
+
+            <div class="pengacara-perempuan-description">
+                <p>
+                    Setiap klien memiliki kebutuhan komunikasi dan preferensi pendampingan yang berbeda
+                    ketika menghadapi persoalan hukum. Sebagian individu mungkin merasa lebih nyaman
+                    menyampaikan kronologi, informasi transaksi, dan permasalahan pribadi kepada advokat perempuan.
+                </p>
+
+                <p>
+                    Melalui layanan <strong>Pengacara Perempuan Penipuan</strong>, calon klien dapat menyampaikan
+                    preferensi tersebut kepada tim JLC. Kami akan membantu mengonfirmasi ketersediaan
+                    advokat perempuan berdasarkan kompetensi, pengalaman penanganan perkara, dan kesesuaian penugasan.
+                </p>
+            </div>
+
+            <div class="pengacara-perempuan-features">
+                <article class="pengacara-perempuan-card">
+                    <div class="pengacara-perempuan-icon">
+                        <img src="{{ asset('images/icon-pengacara-1.png') }}" alt="">
+                    </div>
+                    <div class="pengacara-perempuan-divider"></div>
+                    <div class="pengacara-perempuan-card-content">
+                        <h3>Komunikasi yang Nyaman dan Profesional</h3>
+                        <p>
+                            Konsultasi hukum memberikan kesempatan bagi klien untuk menjelaskan permasalahan
+                            secara terbuka, termasuk kronologi transaksi, bentuk kerugian, dan hubungan
+                            dengan pihak yang diduga terlibat.
+                        </p>
+                    </div>
+                </article>
+
+                <article class="pengacara-perempuan-card">
+                    <div class="pengacara-perempuan-icon">
+                        <img src="{{ asset('images/icon-pengacara-2.png') }}" alt="">
+                    </div>
+                    <div class="pengacara-perempuan-divider"></div>
+                    <div class="pengacara-perempuan-card-content">
+                        <h3>Analisis Perkara Berdasarkan Fakta</h3>
+                        <p>
+                            Penanganan perkara penipuan membutuhkan pemeriksaan terhadap kronologi,
+                            dokumen transaksi, bukti komunikasi, dan keterangan pihak terkait untuk
+                            mengidentifikasi unsur hukum yang relevan.
+                        </p>
+                    </div>
+                </article>
+
+                <article class="pengacara-perempuan-card">
+                    <div class="pengacara-perempuan-icon">
+                        <img src="{{ asset('images/icon-pengacara-3.png') }}" alt="">
+                    </div>
+                    <div class="pengacara-perempuan-divider"></div>
+                    <div class="pengacara-perempuan-card-content">
+                        <h3>Penghormatan terhadap Hak Klien</h3>
+                        <p>
+                            Pendampingan advokat membantu klien memahami hak dan kewajibannya, baik ketika
+                            menjadi pihak yang dilaporkan, terlapor, tersangka, terdakwa, maupun korban
+                            dugaan penipuan.
+                        </p>
+                    </div>
+                </article>
+            </div>
+        </div>
+
+        <div class="pengacara-perempuan-visual" aria-hidden="true"></div>
+
+    </div>
+</section>
+
 <section id="tim-kami" class="team-section-2">
     <div class="container">
         <div class="team-section-2-heading">
@@ -788,7 +774,8 @@
         </div>
     </div>
 </section>
-    <section class="jlc-advantage-section">
+
+<section class="jlc-advantage-section">
         <div class="container">
             <div class="jlc-advantage-wrapper">
                 <div class="row g-0 align-items-center">
@@ -803,6 +790,9 @@
                                     Justicia Legal Counsel?
                                 </span>
                             </h3>
+                            <p>
+                                Memilih pengacara untuk perkara penipuan bukan sekadar mencari bantuan ketika menghadapi laporan atau pemeriksaan. Klien juga perlu memahami ruang lingkup pekerjaan advokat, proses penanganan perkara, dan langkah hukum yang dapat dipertimbangkan berdasarkan bukti yang tersedia.
+                            </p>
                         </div>
                         <div class="jlc-advantage-timeline">
                             <span class="jlc-advantage-line"></span>
@@ -814,9 +804,9 @@
                                         </div>
                                         <div class="jlc-advantage-content">
                                             <span class="jlc-advantage-number">01</span>
-                                            <p class="jlc-advantage-heading">Lawyer Sesuai Kebutuhan Perkara</p>
+                                            <p class="jlc-advantage-heading">Pendampingan Sesuai Kebutuhan Hukum</p>
                                             <p class="jlc-advantage-text">
-                                                JLC membantu menghubungkan calon klien dengan layanan advokat berdasarkan bidang hukum yang dibutuhkan, termasuk perkara pembunuhan dalam lingkup litigasi pidana.
+                                                JLC membantu mengidentifikasi kebutuhan layanan berdasarkan posisi klien, bentuk dugaan penipuan, tingkat kerugian, serta tahapan proses pidana yang sedang berlangsung.
                                             </p>
                                         </div>
                                     </article>
@@ -826,9 +816,9 @@
                                         </div>
                                         <div class="jlc-advantage-content">
                                             <span class="jlc-advantage-number">02</span>
-                                            <p class="jlc-advantage-heading">Analisis Hukum yang Cermat</p>
+                                            <p class="jlc-advantage-heading">Penelaahan Perkara Secara Cermat</p>
                                             <p class="jlc-advantage-text">
-                                                Informasi dan dokumen perkara dapat ditelaah untuk mengidentifikasi persoalan hukum, hak-hak klien, serta pilihan langkah yang relevan.
+                                                Kronologi kejadian, bukti transfer, perjanjian, percakapan elektronik, keterangan saksi, dan dokumen pendukung lainnya dapat ditelaah untuk memahami persoalan hukum yang dihadapi.
                                             </p>
                                         </div>
                                     </article>
@@ -838,9 +828,9 @@
                                         </div>
                                         <div class="jlc-advantage-content">
                                             <span class="jlc-advantage-number">03</span>
-                                            <p class="jlc-advantage-heading">Konsultasi Hukum</p>
+                                            <p class="jlc-advantage-heading">Penjelasan Hak dan Prosedur Hukum</p>
                                             <p class="jlc-advantage-text">
-                                                Klien dapat menyampaikan kebutuhan pendampingan untuk memperoleh penjelasan awal mengenai proses hukum dan layanan yang sesuai.
+                                                Klien dibantu memahami tahapan pelaporan, pemeriksaan, penyidikan, hingga persidangan, termasuk hak dan kewajiban yang berkaitan dengan posisi hukumnya.
                                             </p>
                                         </div>
                                     </article>
@@ -853,9 +843,9 @@
                                         </div>
                                         <div class="jlc-advantage-content">
                                             <span class="jlc-advantage-number">04</span>
-                                            <p class="jlc-advantage-heading">Pendampingan Berdasarkan Ruang Lingkup Layanan</p>
+                                            <p class="jlc-advantage-heading">Komunikasi yang Transparan</p>
                                             <p class="jlc-advantage-text">
-                                                Pendampingan dapat dilakukan sesuai tahap perkara dan kesepakatan penugasan, mulai dari konsultasi hingga proses persidangan apabila termasuk dalam layanan yang disepakati.
+                                                Penjelasan mengenai ruang lingkup layanan, kebutuhan dokumen, biaya jasa, dan tahapan pendampingan membantu klien memahami proses hukum yang akan dijalani.
                                             </p>
                                         </div>
                                     </article>
@@ -865,9 +855,9 @@
                                         </div>
                                         <div class="jlc-advantage-content">
                                             <span class="jlc-advantage-number">05</span>
-                                            <p class="jlc-advantage-heading">Komunikasi yang Transparan</p>
+                                            <p class="jlc-advantage-heading">Pendampingan hingga Persidangan</p>
                                             <p class="jlc-advantage-text">
-                                                JLC mengutamakan penjelasan mengenai kebutuhan layanan, tahapan penanganan, dan ruang lingkup pekerjaan agar klien dapat memahami proses pendampingan.
+                                                Jika termasuk dalam penugasan yang disepakati, layanan dapat mencakup persiapan pembelaan, penyusunan dokumen hukum, serta pendampingan selama proses persidangan sesuai ketentuan hukum yang berlaku.
                                             </p>
                                         </div>
                                     </article>
@@ -877,9 +867,9 @@
                                         </div>
                                         <div class="jlc-advantage-content">
                                             <span class="jlc-advantage-number">06</span>
-                                            <p class="jlc-advantage-heading">Mengutamakan Kepentingan Hukum Klien</p>
+                                            <p class="jlc-advantage-heading">Mengutamakan Etika Profesi</p>
                                             <p class="jlc-advantage-text">
-                                                Setiap langkah penanganan mempertimbangkan fakta, bukti, aturan yang berlaku, serta hak dan kepentingan hukum klien.
+                                                Pendampingan hukum dilakukan dengan memperhatikan etika advokat, kewajiban profesional, kerahasiaan informasi klien, serta penghormatan terhadap hak seluruh pihak yang terlibat dalam perkara.
                                             </p>
                                         </div>
                                     </article>
@@ -891,7 +881,6 @@
             </div>
         </div>
     </section>
-
     <section id="tim-kami" class="team-section-2">
         <div class="container">
             <div class="team-section-2-heading">
@@ -899,15 +888,16 @@
                     Tim Pengacara
                 </span>
                 <h5 class="team-section-2-title">
-                    Profesional.
-                    <span>Berpengalaman.</span>
-                    Berdedikasi.
+                    Pendampingan Hukum dengan Pendekatan Profesional
                 </h5>
                 <p>
-                    Perkara pidana memerlukan pendampingan yang mempertimbangkan karakteristik kasus dan kebutuhan klien. JLC memiliki tim advokat dengan bidang keahlian yang dapat ditinjau untuk membantu calon klien menentukan kebutuhan konsultasi dan pendampingan hukum.
+                    Memahami persoalan hukum merupakan langkah awal untuk menentukan kebutuhan pendampingan yang sesuai. JLC membantu calon klien mendapatkan layanan advokat berdasarkan bidang hukum dan karakteristik perkara yang sedang dihadapi.
                 </p>
                 <p>
-                    Untuk perkara pembunuhan, calon klien dapat menyampaikan informasi awal mengenai perkara dan menanyakan advokat yang sesuai dengan kebutuhan penanganan.
+                    Untuk perkara penipuan, calon klien dapat menjelaskan situasi secara umum, baik sebagai korban maupun pihak yang menghadapi tuduhan. Informasi tersebut membantu tim JLC memahami kebutuhan pendampingan dan mengidentifikasi advokat yang sesuai dengan karakteristik perkara.
+                </p>
+                <p>
+                    Tim JLC dapat memberikan informasi mengenai proses konsultasi, kebutuhan dokumen awal, ketersediaan advokat, serta ruang lingkup layanan sebelum penunjukan dan kesepakatan pendampingan dilakukan.
                 </p>
             </div>
             <div class="row g-4">
@@ -999,10 +989,73 @@
                         </div>
                     </div>
                 </div>
+                <a href="https://wa.lawfirm-jlc.com/" class="cta-section-2-button">
+                    <i class="bi bi-calendar-check"></i>
+                    <span>
+                        Konsultasi dengan Tim JLC
+                    </span>
+                    <i class="bi bi-arrow-right"></i>
+                </a>
             </div>
         </div>
     </section>
 
+<section id="kontak" class="cta-section-2">
+        <div class="container">
+            <div class="cta-section-2-wrapper">
+                <div class="row align-items-center">
+                    <div class="col-lg-5">
+                        <div class="cta-section-2-left">
+                            <h4 class="cta-section-2-title">Jangan Hadapi
+                                <span>
+                                    Masalah Hukum Sendirian.
+                                </span>
+                            </h4>
+                            <p class="cta-section-2-subtitle">Hadapi Perkara Penipuan dengan Pemahaman Hukum yang Tepat</p>
+                            <div class="cta-section-2-divider"></div>
+                            <div class="cta-section-2-list">
+                                <div class="cta-section-2-list-item">
+                                    <i class="bi bi-shield-check"></i>
+                                    <span>
+                                        Aman dan Profesional
+                                    </span>
+                                </div>
+                                <div class="cta-section-2-list-item">
+                                    <i class="bi bi-clock-history"></i>
+                                    <span>
+                                        Komunikatif
+                                    </span>
+                                </div>
+                                <div class="cta-section-2-list-item">
+                                    <i class="bi bi-people"></i>
+                                    <span>
+                                        Sesuai Kebutuhan Hukum
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-7">
+                        <div class="cta-section-2-center">
+                            <p class="cta-section-2-description">
+                                Menghadapi dugaan tindak pidana penipuan dapat menimbulkan berbagai pertanyaan mengenai status hukum, pembuktian, kerugian, dan prosedur pemeriksaan. Baik sebagai korban maupun pihak yang dilaporkan, setiap individu perlu memahami hak serta kewajibannya sebelum mengambil keputusan hukum.
+                            </p>
+                            <p class="cta-section-2-description">
+                                JLC membantu klien menelaah situasi yang dihadapi, memahami unsur hukum dalam perkara, dan mempertimbangkan pilihan pendampingan yang sesuai. Sampaikan kebutuhan Anda kepada tim kami untuk memperoleh informasi awal mengenai layanan Pengacara Penipuan yang tersedia.
+                            </p>
+                            <a href="https://wa.lawfirm-jlc.com/" class="cta-section-2-button">
+                                <i class="bi bi-calendar-check"></i>
+                                <span>
+                                    Konsultasi Sekarang
+                                </span>
+                                <i class="bi bi-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
 <section class="jlc-gallery-section">
     <div class="container-fluid px-lg-5">
@@ -1104,66 +1157,6 @@
     </div>
 </section>
 
-
-    <section id="kontak" class="cta-section-2">
-        <div class="container">
-            <div class="cta-section-2-wrapper">
-                <div class="row align-items-center">
-                    <div class="col-lg-5">
-                        <div class="cta-section-2-left">
-                            <h4 class="cta-section-2-title">Jangan Hadapi
-                                <span>
-                                    Masalah Hukum Sendirian.
-                                </span>
-                            </h4>
-                            <p class="cta-section-2-subtitle">Temukan Pengacara Terbaik Bersama <b>Justicia Legal
-                                    Counsel</b></p>
-                            <div class="cta-section-2-divider"></div>
-                            <div class="cta-section-2-list">
-                                <div class="cta-section-2-list-item">
-                                    <i class="bi bi-shield-check"></i>
-                                    <span>
-                                        Aman dan Profesional
-                                    </span>
-                                </div>
-                                <div class="cta-section-2-list-item">
-                                    <i class="bi bi-clock-history"></i>
-                                    <span>
-                                        Komunikatif
-                                    </span>
-                                </div>
-                                <div class="cta-section-2-list-item">
-                                    <i class="bi bi-people"></i>
-                                    <span>
-                                        Sesuai Kebutuhan Hukum
-                                    </span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-7">
-                        <div class="cta-section-2-center">
-                            <p class="cta-section-2-description">
-                                Menghadapi perkara pembunuhan dapat menimbulkan pertanyaan mengenai hak hukum, prosedur pemeriksaan, dan langkah yang perlu dilakukan. Mendapatkan penjelasan dari advokat sejak awal dapat membantu Anda memahami situasi dan mempertimbangkan keputusan secara lebih matang.
-                            </p>
-                            <p class="cta-section-2-description">
-                                Justicia Legal Counsel siap membantu Anda mencari layanan pendampingan hukum yang sesuai dengan kebutuhan perkara. Hubungi JLC untuk mendiskusikan situasi yang dihadapi dan mengonfirmasi ruang lingkup layanan yang tersedia.
-                            </p>
-                            <a href="https://wa.lawfirm-jlc.com/" class="cta-section-2-button">
-                                <i class="bi bi-calendar-check"></i>
-                                <span>
-                                    Konsultasi Sekarang
-                                </span>
-                                <i class="bi bi-arrow-right"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-
 <section class="faq-section">
     <div class="container">
 
@@ -1175,15 +1168,10 @@
             </div>
 
             <h2>
-                FAQ Pengacara
-                <span>Pembunuhan</span>
+                FAQ 
+                <span>Pengacara Penipuan</span>
             </h2>
 
-            <p>
-                Temukan jawaban atas pertanyaan yang sering diajukan
-                mengenai layanan Pengacara Pembunuhan di
-                Justicia Legal Counsel.
-            </p>
         </div>
 
         <!-- FAQ Accordion -->
@@ -1203,7 +1191,7 @@
                             <span class="faq-number">01</span>
 
                             <span class="faq-question">
-                                Apa tugas Pengacara Pembunuhan?
+                                Apa tugas Lawyer Penipuan?
                             </span>
 
                         </button>
@@ -1215,12 +1203,7 @@
                         data-bs-parent="#faqAccordion">
 
                         <div class="accordion-body">
-                            Pengacara pembunuhan memberikan bantuan hukum
-                            dalam perkara pidana terkait dugaan tindak
-                            pidana pembunuhan. Ruang lingkupnya dapat
-                            meliputi konsultasi, penelaahan dokumen,
-                            pendampingan pemeriksaan, penyusunan pembelaan,
-                            dan pendampingan persidangan sesuai penugasan.
+                            Lawyer penipuan memberikan bantuan hukum kepada individu yang terlibat dalam perkara terkait dugaan tindak pidana penipuan, baik sebagai korban maupun pihak yang dilaporkan atau didakwa. Layanan dapat mencakup konsultasi hukum, penelaahan bukti transaksi, pendampingan pemeriksaan, penyusunan dokumen hukum, pembelaan, dan pendampingan persidangan sesuai ruang lingkup penugasan.
                         </div>
                     </div>
                 </div>
@@ -1238,7 +1221,7 @@
                             <span class="faq-number">02</span>
 
                             <span class="faq-question">
-                                Apakah JLC menyediakan Pengacara Perempuan Pembunuhan?
+                                Kapan saya perlu menghubungi Pengacara Penipuan?
                             </span>
 
                         </button>
@@ -1250,10 +1233,7 @@
                         data-bs-parent="#faqAccordion">
 
                         <div class="accordion-body">
-                            Anda dapat menyampaikan preferensi untuk
-                            didampingi advokat perempuan kepada tim JLC.
-                            Ketersediaan dan kesesuaian penugasan perlu
-                            dikonfirmasi sebelum layanan disepakati.
+                            Anda dapat berkonsultasi ketika mengalami kerugian akibat dugaan penipuan, menerima panggilan pemeriksaan, mengetahui adanya laporan yang berkaitan dengan diri Anda, menghadapi tuduhan penipuan, atau membutuhkan bantuan hukum untuk anggota keluarga. Konsultasi sejak tahap awal membantu Anda memahami prosedur dan hak hukum yang relevan.
                         </div>
                     </div>
                 </div>
@@ -1271,7 +1251,7 @@
                             <span class="faq-number">03</span>
 
                             <span class="faq-question">
-                                Kapan sebaiknya menghubungi Lawyer Pembunuhan?
+                                Apakah JLC menyediakan Pengacara Perempuan Penipuan?
                             </span>
 
                         </button>
@@ -1283,14 +1263,7 @@
                         data-bs-parent="#faqAccordion">
 
                         <div class="accordion-body">
-                            Anda dapat berkonsultasi ketika menerima
-                            panggilan pemeriksaan, mengetahui adanya
-                            proses pidana yang berkaitan dengan diri
-                            sendiri atau keluarga, atau membutuhkan
-                            penjelasan tentang hak hukum dalam suatu
-                            perkara. Konsultasi sejak tahap awal dapat
-                            membantu Anda memahami prosedur dan pilihan
-                            yang tersedia.
+                            Calon klien dapat menyampaikan preferensi untuk didampingi advokat perempuan kepada tim JLC. Kami akan membantu mengonfirmasi ketersediaan advokat perempuan berdasarkan kompetensi dan kesesuaian penugasan dengan karakteristik perkara.
                         </div>
                     </div>
                 </div>
@@ -1308,7 +1281,7 @@
                             <span class="faq-number">04</span>
 
                             <span class="faq-question">
-                                Apa saja yang dapat dipersiapkan sebelum konsultasi?
+                                Apakah korban penipuan dapat meminta pendampingan hukum dari JLC?
                             </span>
 
                         </button>
@@ -1320,11 +1293,7 @@
                         data-bs-parent="#faqAccordion">
 
                         <div class="accordion-body">
-                            Jika tersedia, siapkan kronologi kejadian,
-                            surat panggilan, dokumen proses hukum, serta
-                            informasi atau bukti lain yang relevan.
-                            Tanyakan kepada tim JLC cara menyampaikan
-                            dokumen sensitif secara aman.
+                            Ya. Korban dugaan penipuan dapat berkonsultasi dengan JLC untuk memahami pilihan langkah hukum yang tersedia. Pendampingan dapat mencakup penelaahan bukti transaksi, penyusunan kronologi, konsultasi mengenai pelaporan, serta pendampingan dalam proses hukum sesuai kebutuhan dan kesepakatan layanan.
                         </div>
                     </div>
                 </div>
@@ -1342,7 +1311,7 @@
                             <span class="faq-number">05</span>
 
                             <span class="faq-question">
-                                Berapa biaya jasa Pengacara Pembunuhan?
+                                Apakah seseorang yang dituduh melakukan penipuan dapat memperoleh pendampingan hukum?
                             </span>
 
                         </button>
@@ -1354,11 +1323,7 @@
                         data-bs-parent="#faqAccordion">
 
                         <div class="accordion-body">
-                            Biaya bergantung pada kompleksitas perkara,
-                            tahap penanganan, kebutuhan pendampingan,
-                            dan ruang lingkup pekerjaan yang disepakati.
-                            Hubungi JLC untuk memperoleh informasi biaya
-                            sesuai kebutuhan layanan.
+                            Seseorang yang menghadapi dugaan tindak pidana penipuan berhak memperoleh bantuan advokat untuk memahami posisi hukum, hak-hak selama pemeriksaan, serta proses pembelaan. Penilaian terhadap perkara perlu mempertimbangkan fakta, dokumen, keterangan saksi, dan alat bukti yang tersedia.
                         </div>
                     </div>
                 </div>
@@ -1376,7 +1341,7 @@
                             <span class="faq-number">06</span>
 
                             <span class="faq-question">
-                                Apakah pengacara dapat menjamin putusan bebas?
+                                Dokumen apa yang perlu disiapkan sebelum konsultasi?
                             </span>
 
                         </button>
@@ -1388,11 +1353,67 @@
                         data-bs-parent="#faqAccordion">
 
                         <div class="accordion-body">
-                            Tidak. Advokat tidak dapat menjamin putusan
-                            bebas atau hasil tertentu. Penanganan perkara
-                            harus didasarkan pada fakta, alat bukti,
-                            ketentuan hukum yang berlaku, dan proses
-                            penilaian oleh pihak yang berwenang.
+                            Jika tersedia, siapkan kronologi kejadian, bukti transfer, rekening koran, perjanjian atau kontrak, percakapan elektronik, identitas pihak terkait, surat panggilan, dan dokumen proses hukum lainnya. Tim JLC dapat membantu mengidentifikasi dokumen tambahan yang diperlukan berdasarkan karakteristik perkara.
+                        </div>
+                    </div>
+                </div>
+
+                <!-- FAQ 7 -->
+                <div class="accordion-item">
+                    <h3 class="accordion-header" id="headingSix">
+                        <button class="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#faqSeven"
+                            aria-expanded="false"
+                            aria-controls="faqSeven">
+
+                            <span class="faq-number">07</span>
+
+                            <span class="faq-question">
+                                Berapa biaya jasa Pengacara Penipuan?
+                            </span>
+
+                        </button>
+                    </h3>
+
+                    <div id="faqSeven"
+                        class="accordion-collapse collapse"
+                        aria-labelledby="headingSix"
+                        data-bs-parent="#faqAccordion">
+
+                        <div class="accordion-body">
+                            Biaya jasa pengacara penipuan bergantung pada kompleksitas perkara, nilai kerugian, tahap penanganan, kebutuhan pendampingan, dan ruang lingkup pekerjaan yang disepakati. Hubungi tim JLC untuk memperoleh informasi biaya berdasarkan kondisi dan layanan hukum yang Anda butuhkan.
+                        </div>
+                    </div>
+                </div>
+
+                <!-- FAQ 8 -->
+                <div class="accordion-item">
+                    <h3 class="accordion-header" id="headingSix">
+                        <button class="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#faqEight"
+                            aria-expanded="false"
+                            aria-controls="faqEight">
+
+                            <span class="faq-number">07</span>
+
+                            <span class="faq-question">
+                                Apakah pengacara dapat menjamin pelaku penipuan dipenjara atau klien dibebaskan?
+                            </span>
+
+                        </button>
+                    </h3>
+
+                    <div id="faqEight"
+                        class="accordion-collapse collapse"
+                        aria-labelledby="headingSix"
+                        data-bs-parent="#faqAccordion">
+
+                        <div class="accordion-body">
+                            Tidak. Advokat tidak dapat menjamin seseorang akan dijatuhi hukuman pidana, perkara dihentikan, atau klien dibebaskan. Penanganan perkara dan hasil putusan bergantung pada fakta, alat bukti, ketentuan hukum yang berlaku, serta penilaian aparat penegak hukum dan pengadilan.
                         </div>
                     </div>
                 </div>

@@ -3355,7 +3355,6 @@ p {
     line-height: 2;
     margin-bottom: 35px;
 }
-
 .cta-section-2-button {
     display: inline-flex;
     align-items: center;
@@ -3382,7 +3381,6 @@ p {
 .cta-section-2-button i {
     font-size: 16px;
 }
-
 .cta-section-2-right {
     display: flex;
     justify-content: flex-end;

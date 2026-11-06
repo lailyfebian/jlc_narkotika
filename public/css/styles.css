@@ -317,7 +317,7 @@ p {
     overflow: hidden;
 
     background:
-        url("../images/hero-narkotika-web.png") center center / cover no-repeat;
+        url("../images/hero-narkotika-web.webp") center center / cover no-repeat;
 
     color: #fff;
 }
@@ -727,7 +727,7 @@ p {
     height: 600px;
     margin: 0 auto;
 
-    background: url("../images/hero-narkotika-web.png")
+    background: url("../images/hero-narkotika-mobile.webp")
                 center center / cover no-repeat;
 
     border-radius: 12px;
@@ -1688,7 +1688,7 @@ p {
     background-image: linear-gradient(
         rgba(255, 255, 255, 0.5),
         rgba(255, 255, 255, 0.5)
-    ), url("../images/background-biru-muda.png");
+    ), url("../images/background-biru-muda.webp");
     position: relative;
     padding-top:  50px;
     padding-bottom: 50px;
